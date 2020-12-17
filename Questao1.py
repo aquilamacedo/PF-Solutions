@@ -1,4 +1,4 @@
-# como a questao nao deu um exempo, tomei a liberdade de criar um com o nome a idade de um individuo
+# como a questao nao deu um exempo, tomei a liberdade de criar um, com o nome sendo a chave e a idade o valor dessa chave.
 
 lista = [{'aquila': '19'}, {'davi': '20'}, {'gabriel': '23'}, {'nome': 'idade'}, {'chave': 'valor'}]
 
@@ -14,12 +14,12 @@ while qntd != x:
     checker = input('Verifique a existencia da chave: ') # aqui outra entrada interativa, que pede a chave para o cliente fazer os testes com as possiveis chaves
     
     # já aqui, criei uma estrutura for, para percorrer os elementos dessa lista, elementos que são do tipo: dicionários. 
-    # ou seja, ele vai percorrer esses dicionários e tratar os valores das chaves com duas condicionais
+    # ou seja, esse laço vai percorrer esses dicionários e tratar os valores das chaves com duas condicionais
     
     for valor in range(0,len(lista)):
         teste = lista[valor]                            # aqui eu acesso o dicionario
         
-        if checker in teste:                            # primeira condicional que vai ver se a chave do dicionario condiz com o a variavel checker que esta verificando a existência dessa chave.
+        if checker in teste:                            # a primeira condicional vai ver se a chave do dicionario condiz com o a variavel checker ou seja, essa condicional está verificando a existência da chave.
         
             saida = teste[checker]                      # aqui eu pego o valor da chave e armazeno na variavel saida
             
