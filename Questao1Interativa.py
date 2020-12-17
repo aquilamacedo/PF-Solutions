@@ -1,6 +1,6 @@
 quest = int(input('Quantos itens deseja colocar no dicionario? '))
-valorNumerico = 0
-d1 = dict()
+
+d1 = dict() # crio dicionario vazio para ir atribuindo os itens na estrutura de repeticao while 
 
 lista=[]
 
